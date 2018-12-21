@@ -17,6 +17,7 @@ main(List<String> arguments) {
 
 
   print("$name $lastname is $age years old.");
+  print("Hello there $name ${lastname.toUpperCase()}");
 
   print(country);
   print(name);
