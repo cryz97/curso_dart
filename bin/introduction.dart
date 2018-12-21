@@ -19,8 +19,13 @@ main(List<String> arguments) {
   print("$name $lastname is $age years old.");
   print("Hello there $name ${lastname.toUpperCase()}");
 
-  print(country);
-  print(name);
-  print(age);
-  print(num);
+  int number1 = 25;
+  int number2 = 40;
+
+  double pi = 3.1416;
+  double G = 9,8;
+
+  var res = pi + G;
+
+  print(res + number1 * number2);
 }
