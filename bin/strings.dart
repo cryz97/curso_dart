@@ -4,7 +4,7 @@ main(List<String> arguments) {
 
   country = "Japan";
 
-  int age = 23;
+  int age = 21;
   double num  = 12.34;
 
   bool isTrue = true;
@@ -13,6 +13,10 @@ main(List<String> arguments) {
   const PI = 3.14;
   final E = 2.7;
 
+  String lastname = "Macias";
+
+
+  print("$name $lastname is $age years old.");
 
   print(country);
   print(name);
