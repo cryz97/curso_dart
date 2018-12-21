@@ -7,6 +7,8 @@ main(List<String> arguments) {
   int age = 23;
   double num  = 12.34;
 
+  bool isTrue = true;
+  bool isFalse = false;
 
 
   print(country);
