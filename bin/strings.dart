@@ -10,6 +10,9 @@ main(List<String> arguments) {
   bool isTrue = true;
   bool isFalse = false;
 
+  const PI = 3.14;
+  final E = 2.7;
+
 
   print(country);
   print(name);
