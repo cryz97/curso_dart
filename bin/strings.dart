@@ -1,3 +1,4 @@
 main(List<String> arguments) {
-  print('Hello world');
+  var country = "Mexico";
+  print(country);
 }
