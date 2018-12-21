@@ -23,9 +23,24 @@ main(List<String> arguments) {
   int number2 = 40;
 
   double pi = 3.1416;
-  double G = 9,8;
+  double G = 9.8;
 
   var res = pi + G;
-
   print(res + number1 * number2);
+
+  
+  if(res > 0){
+    print("res > 0 true");
+  }else{
+    print("res > 0 false");
+  }
+
+  if(number1 != 100 || number2 == 100){
+    print("true");
+  }
+  else{
+    print("false");
+  }
+
+
 }
