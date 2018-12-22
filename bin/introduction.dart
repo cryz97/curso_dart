@@ -28,7 +28,7 @@ main(List<String> arguments) {
   var res = pi + G;
   print(res + number1 * number2);
 
-  
+
   if(res > 0){
     print("res > 0 true");
   }else{
@@ -40,6 +40,12 @@ main(List<String> arguments) {
   }
   else{
     print("false");
+  }
+
+  for(var i = 0; i <=10; i++){
+    if(i % 3 == 0){
+      print(i);
+    }
   }
 
 
